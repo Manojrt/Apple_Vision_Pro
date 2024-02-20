@@ -1,0 +1,529 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+#Main_div{
+    min-width: 97vw;
+    height: 750px;
+    background-color: rgb(0, 0, 0);
+}
+#Nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    background-color: rgb(0, 0, 0);
+    line-height: 50px;
+}
+/* #Nav>img{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+} */
+#Nav a{
+    text-decoration: none;
+    color: #808080;
+    font-size: small;
+}
+#Nav a:hover{
+    color: white;
+}
+
+#Nav_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    /* position: absolute;
+    right:250px;
+    top: 16px; */
+}
+#Nav2{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 816px;
+    padding-left: 280px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+}
+
+#Main_div video{
+    width: 100%;
+    height: 100%;
+}
+
+#Nav2 button{
+    border-radius: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 24px;
+}
+#Empty_block{
+    height: 100px;
+    background-color: black;
+}
+#Vision_pro1{
+    height: 500px;
+    background-color: rgb(26, 26, 26);
+    color:rgb(255, 255, 255)
+}
+#Vision_pro1 h1{
+    position: absolute;
+    top: 1020px;
+    left: 350px;
+    font-size: 300%;
+}
+#Vision_pro2{
+    height: 800px;
+    box-shadow: 8px 16px 32px rgb(206, 206, 206);
+}
+#Vision_pro2>img{
+    margin-left: 34%;
+    margin-top: 5%;
+}
+#Vision_pro2 #content1{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    color: orangered;
+    font-size:150%;
+}
+#Vision_pro2 #content1 :hover{
+    text-decoration: underline;
+}
+#Vision_pro2>h3{
+    color: grey;
+    text-align: center;
+    font-size:150%;
+}
+#Vision_pro2 #content2{
+    display: flex;
+    scale: 0.8;
+    justify-content: center;
+}
+#Vision_pro2 #content2:hover{
+    scale: 1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#Camera{
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    /* background-color: grey; */
+    box-shadow: 0px 16px 32px lightgray;
+}
+#Camera img{
+    margin-right: 50px;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    scale: 1;
+}
+#Camera img:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#Camera_content{
+    margin-top: 70px;
+    margin-left: 200px;
+}
+#Camera_content h1{
+    font-size: xx-large;
+}
+#Audiostraps{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+#Audiostraps_Content{
+    text-align: left;
+    margin-top: 80px;
+    margin-right: 100px;
+    padding-right: 80px;
+}
+#Audiostraps_Content h1{
+    font-size: xx-large;
+}
+#Audiostraps img:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#Headstraps{
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000000;
+    box-shadow: 0px 16px 24px rgb(182, 182, 182);
+}
+#Headstraps_Content h1{
+    font-size: xx-large;
+}
+
+#Headstraps_Content{
+    
+    color: white;
+    /* margin-top: 70px; */
+    margin-left: 20px;
+    padding-left: 200px;
+}
+#Headstraps img{
+    /* margin-right: 50px; */
+    margin-top: 50px;
+}
+#Headstraps img:hover{
+    scale: 1.5;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+#Image{
+    display: flex;
+    justify-content: center;
+}
+#Home_content{
+    color:white;
+    position: relative;
+    top: -450px;
+    /* left: 1000px; */
+    line-height: 2px;
+    /* text-align: center; */
+    margin-left: 200px;
+}
+#Home_content h1{
+    font-size: 500%;
+}
+
+#Home_div{
+    min-width: 97vw;
+    height: 634px;
+    background-color: yellow; 
+}
+#Home_screen{
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 4150px;
+    left: 400px;
+    /* background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba(135, 118, 31, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border-left: 1px solid rgba(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255); */
+}
+
+#apps1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+    
+}
+
+#apps1 section{
+    display: flex;
+    width: 80px;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin-top: 40px;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#apps1 section:hover{
+    background: rgba( 255, 255, 255, 0.15 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+#apps1 section p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#apps1 section:hover{
+    scale: 1.05;
+    transition-duration: 1s;
+
+}
+#Apps_table{
+    background-color: #000000;
+}
+#Tablecontent{
+    min-height: 500px;
+    text-align: center;
+    line-height: 1px;
+}
+#Tablecontent h1{
+    font-size: 500%;
+}
+#Tablecontent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 4900px;
+}
+
+#Grid{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #000000;
+    align-items: center;
+}
+
+#Display{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    /* box-shadow: 16px 16px 24px rgb(40, 24, 24); */
+    background: rgba(255, 255, 255,1);
+    /* box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px; */
+    position: absolute;
+    left: 250px;
+}
+#Display:hover{
+    transform: skew(10%);
+}
+#Display img{
+    scale: 1.5;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#Display img:hover{
+    scale: 1.6;
+    
+}
+#Display2{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 16px 16px 24px rgb(40, 24, 24);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(20, 20, 20, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    position: absolute;
+    left: 800px;
+}
+#Display2:hover{
+    transform: skew(10%);
+}
+#Display2 img{
+    scale: 1.5;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+#Display2 img:hover{
+    scale: 1.6;
+    
+}
+
+.Grid_Content{
+    padding: 24px;
+}
+
+#Display h3{
+    font-size: xx-large;
+}
+
+#Circle{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 420px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 100%;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000000);
+}
+#Circle2{
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: -1200px;
+    margin-top: -420px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 100%;
+    background: radial-gradient(circle at 100px 100px, #5fff5c, #000);
+}
+#Circle3{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 800px;
+    margin-top: 0px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 100%;
+    background: radial-gradient(circle at 100px 100px, #ed80f7, #471b3f);
+}
+#Circle4{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: -800px;
+    margin-top: 200px;
+    opacity: 1;
+    position: absolute;
+    border-radius: 100%;
+    background: radial-gradient(circle at 100px 100px, #f3f780, #472c1b);
+}
+
+#Digital_Crown{
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Digi_Content{
+    margin-left: -200px;
+    margin-right: 200px;
+}
+#Digi_Content h1{
+    font-size: xx-large;
+}
+#Tap_button{
+    height: 420px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+}
+
+#Tap_Content{
+    margin-left: 200px;
+    color: white;
+}
+
+#Power{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 8px 16px 32px rgb(226, 226, 226);
+}
+
+#Power_Content{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#Apps_live{
+    padding-left: 500px;
+    margin-right: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+#Apps_live section{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    text-align: justify;
+    /* border: 2px solid black; */
+}
+
+#Button{
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Button button{
+    padding: 16px 24px ;
+    font-size: x-large;
+    border-radius: 100px;
+    color: orangered;
+    border-color: orangered;
+    border: 2px solid;
+    box-shadow:8px 8px 32px rgb(197, 197, 197);
+
+}
+#Button button:hover{
+    background-color: orangered;
+    color: white;
+}
+#Disclaimer{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+#Disclaimer ol{
+    /* margin-left: 100px; */
+    margin-right: 200px;
+    text-align: justify;
+}
+#Disclaimer section{
+    margin-left: 30px;
+    /* margin-right: 200px; */
+    line-height: 4px;
+}
+footer{
+    height: 600px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+footer section p{
+    line-height: 16px;
+    font-size: small;
+    
+}
+
+footer section a{
+    text-decoration: none;
+    color: grey;
+}
+
+footer section p:hover{
+    text-decoration: underline;
+}
+
+#Copyright{
+    font-size: small;
+    margin-left: 230px;
+    margin-right: 200px;
+}
